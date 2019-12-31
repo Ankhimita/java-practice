@@ -45,7 +45,7 @@ public class ArrayRotation {
                 return gcd(b, a % b);
         }
 
-        // Driver program to test above functions
+        // Driver program to practice5 above functions
         public static void main(String[] args)
         {
             ArrayRotation rotate = new ArrayRotation();

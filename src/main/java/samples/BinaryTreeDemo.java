@@ -62,7 +62,7 @@
 //        return i;
 //    }
 //
-//    /* This funtcion is here just to test buildTree() */
+//    /* This funtcion is here just to practice5 buildTree() */
 //    void printInorder(TreeNode node)
 //    {
 //        if (node == null)
@@ -78,7 +78,7 @@
 //        printInorder(node.right);
 //    }
 //
-//    // driver program to test above functions
+//    // driver program to practice5 above functions
 //    public static void main(String args[])
 //    {
 //        BinaryTree tree = new BinaryTree();

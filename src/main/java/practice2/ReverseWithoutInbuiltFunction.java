@@ -5,7 +5,7 @@ public class ReverseWithoutInbuiltFunction {
     static String wordReverse(String str)
     {
         int i = str.length() - 1;
-        int start, end = i + 1;
+        int start, end = str.length();
         String result = "";
 
         while(i >= 0)

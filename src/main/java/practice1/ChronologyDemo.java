@@ -14,7 +14,8 @@ public class ChronologyDemo
                 new HashMap<String, Integer>();
         for (String str : votes)
         {
-            if (map.keySet().contains(str))
+//            if (map.keySet().contains(str))
+            if(map.containsKey(str))
                 map.put(str, map.get(str) + 1);
             else
                 map.put(str, 1);

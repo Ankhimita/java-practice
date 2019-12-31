@@ -101,7 +101,7 @@ class LinkedList
         System.out.println();
     }
 
-    /* Drier program to test above functions */
+    /* Drier program to practice5 above functions */
     public static void main(String args[])
     {
         LinkedList L = new LinkedList();

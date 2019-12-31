@@ -14,13 +14,12 @@ public class SubstringDemo {
         while(i<s1.length()) {
 
             if(s1.charAt(i)==s2.charAt(j)) {
-                match= isMatch(i,s2.length());
+                match= isMatch(i+1,j+1,s2.length()-1);
             }
 
             if(match==true){
                 break;
             }else {
-                j=0;
                 i++;
             }
         }
@@ -33,12 +32,20 @@ public class SubstringDemo {
 
     }
 
-    private static boolean isMatch(int startIndex, int s2len) {
+    private static boolean isMatch(int i, int j, int s2len) {
 
-        for(int j=startIndex; j<s2len; j++) {
-            if(s1.charAt(j)!=s2.charAt(j)){
+//        for(int i=startIndex; j<s2len; j++, i++) {
+//            if(s1.charAt(i)!=s2.charAt(j)){
+//                return false;
+//            }
+//        }
+
+        while(j<s2len) {
+            if(s1.charAt(i)!=s2.charAt(j)){
                 return false;
             }
+            i++;
+            j++;
         }
         return true;
     }

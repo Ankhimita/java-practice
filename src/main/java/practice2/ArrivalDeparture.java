@@ -30,9 +30,7 @@ public class ArrivalDeparture {
                     result = plat_needed;
                 }
 
-            }
-
-            // Else decrement count of platforms needed
+            }// Else decrement count of platforms needed
             else {
                 plat_needed--;
                 j++;
@@ -42,7 +40,7 @@ public class ArrivalDeparture {
         return result;
     }
 
-    // Driver program to test methods of graph class
+    // Driver program to practice5 methods of graph class
     public static void main(String[] args) {
         int arr[] = {900, 940, 950, 1100, 1500, 1800};
         int dep[] = {910, 1200, 1120, 1130, 1900, 2000};

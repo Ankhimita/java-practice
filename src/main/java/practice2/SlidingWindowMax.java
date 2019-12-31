@@ -20,9 +20,9 @@ public class SlidingWindowMax {
         }
 
         for(; i<n;++i) {
-            System.out.println(arr[maxDeque.peek()]);
+            System.out.println(arr[maxDeque.peekFirst()]);
 
-            while(!maxDeque.isEmpty() && maxDeque.peek()<=i-k) {
+            while(!maxDeque.isEmpty() && maxDeque.peekFirst()<=i-k) {
                 maxDeque.removeFirst();
             }
             while(!maxDeque.isEmpty() && arr[i]>=arr[maxDeque.peekLast()]) {

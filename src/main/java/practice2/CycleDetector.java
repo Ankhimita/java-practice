@@ -6,7 +6,8 @@ public class CycleDetector {
 
     public static void main(String[] args) {
 
-        int input[] = new int[]{2,3,3,1,0};
+//        int input[] = new int[]{2,3,3,1,0};
+        int input[] = new int[]{3,2,0,0};
         int startIndex = 2; //user input
 
         Set<Integer> mySet = new HashSet<Integer>();

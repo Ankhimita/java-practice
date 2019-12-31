@@ -35,10 +35,10 @@ public class LCABST {
             return null;
         }
 
-        if(root.data> Integer.max(x,y)) {
+        if( Integer.max(x,y)<root.data) {
             return findLCA(root.left,x,y);
         }
-        if(root.data<Integer.min(x,y)) {
+        if(Integer.min(x,y)>root.data) {
             return findLCA(root.right,x,y);
         }
 

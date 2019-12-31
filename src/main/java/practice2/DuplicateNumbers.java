@@ -13,7 +13,6 @@ public class DuplicateNumbers {
                 System.out.println(indexElement+ " ");
             }
                 arr[indexElement]= (-1) * arr[indexElement];
-
         }
 
     }

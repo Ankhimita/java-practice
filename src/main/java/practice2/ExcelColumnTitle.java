@@ -36,7 +36,7 @@ public class ExcelColumnTitle
         System.out.println(columnName.reverse());
     }
 
-    // Driver program to test above function
+    // Driver program to practice5 above function
     public static void main(String[] args)
     {
         printString(700);

@@ -57,7 +57,7 @@ class FirstNonRepeating
     static int firstNonRepeating(String str)
     {
         getCharCountArray(str);
-        int result = Integer.MAX_VALUE, i;
+        int result = 0, i;
 
 //        for (i = 0; i < str.length(); i++)
 //        {

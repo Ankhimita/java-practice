@@ -58,7 +58,7 @@ class SlidingWindow {
         System.out.print(arr[deque.peek()]);
     }
 
-    // Driver program to test above functions
+    // Driver program to practice5 above functions
     public static void main(String[] args)
     {
         int arr[] = { 12, 1, 78, 90, 57, 89, 56 };
